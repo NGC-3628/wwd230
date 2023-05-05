@@ -68,6 +68,8 @@ header{
     transition: transform .3s ease-in-out;
     transform: translate(100%);
     box-shadow: 0 0 6px rgb(0, 0, 0, .5);
+    text-shadow: .5px .5px .5px #000;
+    font-size: larger;
 }
 
 .spread{
