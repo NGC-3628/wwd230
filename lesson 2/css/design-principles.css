@@ -42,7 +42,8 @@ body{
     background-color: rgb(215, 200, 181);
     max-width: 100%;
     min-width: none;
-    border-radius: 6%;
+    border-top-right-radius: 6%;
+    border-top-left-radius: 6%;
     
     
 }
@@ -63,7 +64,6 @@ body{
     max-height: fit-content;
     grid-column: 3/3;
     justify-self: center;
-    position:relative;
 }
 
 
