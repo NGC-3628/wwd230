@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+#icon{
+    border-radius: 50%;
+}
+
 :root{
     scroll-behavior: smooth;
 }
@@ -252,6 +256,14 @@ footer{
     flex-wrap: wrap;
     padding-top: 60px;
     padding-bottom: 40px;
+}
+
+.my-info{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
 }
 
 .contact-us{
