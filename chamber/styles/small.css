@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+
+
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; 
+    -ms-text-size-adjust: 100%;
+}
+
+*{
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+body{
+    font-size: 16px;
+    font-family: Inter, sans-serif;
+    background-color: #eee;
+}
+
+header{
+    height: 75vh;
+    background-image: linear-gradient(to top,  rgba(22, 255, 123, 0.303) 0%, rgba(255, 32, 188, 0.214) 100%), url(../images/rio_bravo_2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.container{
+    width: 90%;
+    max-width: 1800px;
+    overflow: hidden;
+    padding: 100px ;
+
+}
+
+.title{
+    color: #fff;
+    font-family: 'Monoton', cursive;
+}
+
+.sub-title{
+    padding: 0;
+    display: flex;
+    justify-content: right;
+    color: #fff;
+}
+
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+nav button{
+    margin: 2rem, 2vw;
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    color: #ecffff;
+}
+
+nav{
+    background-color: #000000e4;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a{
+    display: block;    /*This makes the area clickable teh whole.*/
+    padding: .8rem 2vw;
+    text-decoration: none;
+    color: #ffffff;
+    border-top: 1px solid rgba(0, 0, 0, 0.5);  /*It adds border to each element of the list*/
+}
+
+nav ul li a:hover {
+    background-color: rgba(68, 16, 16, 0.5);
+}
+
+nav ul li.active a{
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #fff;
+}
+
+nav ul li a:hover{
+    background-color: rgba(5, 84, 95, 0.3);
+}
+
+nav ul {display: none;}
+nav ul.open {display: block;}
+
+#hamburger span:nth-child(1) {display: block;}
+#hamburger span:nth-child(2) {display: none;}
+
+#hamburger.open span:nth-child(1) {display: none;}
+#hamburger.open span:nth-child(2) {display: block;}
+
+footer{
+    background-color: #000000e4;
+    padding-bottom: 0.1px;
+}
+
+main{
+    padding: 1rem 2%;
+    display: flex;
+}
+
+.only-page{
+    display: block;
+    justify-content: space-between;
+    padding: 0 2%;
+    flex-direction: column;
+}
+
+
+.hero, .news, .events, .weather, .join, .spotlights {
+    border: solid 5px #000;
+}
+
+
+.news, .events, .weather, .join, .spotlights {
+    display: flex;
+    padding: 150px;
+    
+}
+
+/************************************ Footer ************************************/
+.contact-us, .location, .isaac-info{
+  color: #eee;
+  font-style: none;  
+}
