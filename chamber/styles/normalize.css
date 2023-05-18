@@ -1,39 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
-/*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 
-/* Document
-   ========================================================================== */
-
-/**
- * 1. Correct the line height in all browsers.
- * 2. Prevent adjustments of font size after orientation changes in
- *    IE on Windows Phone and in iOS.
- */
 
 html {
-  line-height: 1.15; /* 1 */
+  line-height: 1.15; /* 1  Correct the line height in all browsers.*/ 
   -ms-text-size-adjust: 100%; /* 2 */
-  -webkit-text-size-adjust: 100%; /* 2 */
+  -webkit-text-size-adjust: 100%; /* 2  Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.*/
 }
-
-:root{
-  scroll-behavior: smooth;
-}
-
-/* Sections
-   ========================================================================== */
 
 /**
- * Remove the margin in all browsers (opinionated).
- */
-
+* Remove the margin in all browsers (opinionated).
+*/
 body {
-  margin: 0;
+ margin: 0;
 }
-
-/**
- * Add the correct display in IE 9-.
- */
 
 article,
 aside,
@@ -43,11 +21,6 @@ nav,
 section {
   display: block;
 }
-
-/**
- * Correct the font size and margin on `h1` elements within `section` and
- * `article` contexts in Chrome, Firefox, and Safari.
- */
 
 h1 {
   font-size: 2em;

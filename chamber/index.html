@@ -1,26 +1,35 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Recycling for Wellness</title>
-    <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="styles/large.css">
-    <link rel="stylesheet" href="styles/small.css">
-
+    <meta charset="utf-8">
+    <meta name="author" content="Isaac Iturralde">
+    <title>Recycling Hub at TRC</title>
+    <!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href="styles/normalize.css" rel="stylesheet">
+    <link href="styles/small.css" rel="stylesheet">
+    <link href="styles/medium.css" rel="stylesheet">
+    <link href="styles/large.css" rel="stylesheet"> 
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>    
 </head>
+
 <body>
-    <header>
-        <section class="container">
-            <h1 class="title">RECYCLING 4 Wellness TRC</h1>
-            <h2 class ="sub-title">Slogan or something</h2>
+	<header style="padding-bottom: 5px;"> 
+        <section class="intro"> 
+            <img class="img-intro" src="images/Recycling 4 (1) photoshop.png" alt="logo">
+            <h1>Recycling Hub at Torreon</h1>
+            <h2 id="h2">Together we make it!</h2>
+        </section>
+        <section id="time">
+            <time></time>
+            <aside></aside>
+            <p></p>
         </section>
     </header>
 
     <nav>
     <button id="hamburger"><span>&#9776;</span><span>X;</span></button>
-        <ul id="menu" class="class-menu">
+        <ul id="menu">
             <li><a href="#">Home</a></li>
             <li><a href="#">Products</a></li>
             <li><a href="#">Location</a></li>
@@ -28,55 +37,61 @@
             <li><a href="#">Something</a></li>
             <li><a href="#">About us</a></li>  
             <li><a href="#">FAQ</a></li>
-            <li><a href="#">Support</a></li>  
+            <li><a href="#">Support</a></li>      
         </ul>
     </nav>
 
     <main>
-        <section class="banner">
-            <section class="only-page">
-                <div class="hero">
-                    <img src="images/img-company.png" alt="hero image" style="max-width: 100%;"> 
-                    <p>Call to Action</p></div>
-                <div class="news">News</div>
-                <div class="events">Events</div>
-                <div class="weather">Weather</div>
-                <div class="join">Join</div>
-            </section>
-            <section class="spotlights">
-                <h4>spotlights</h4>
-            </section>
+        <section class="hero">
+            <p>hero</p>
+        </section>
+        <section class="news">
+            <p>news</p>
+        </section>
+        <section class="events">
+            <p>events</p>
+        </section>
+        <section class="weather">
+            <p>weather</p>
+        </section>
+        <section class="join">
+            <p>join</p>
+        </section>
+        <section class="spotlights">
+            <p>spotlights</p>
         </section>
     </main>
-
+      
     <footer>
-        <div class="footer-content">
+        <div class="contenedor footer-content">
             <div class="contact-us">
-                <h2 class="brand">Recycling for Wellness</h2>
-                <p>Slogan</p>
-            </div>
-            <div class="location">
-                <a href="#">📌Location</a>
+                <h2 class="brand">Recycling Hub at TRC</h2>
+                <p class="footer-motto">Together we make it!</p>
             </div>
             <div class="social-media">
                 <a href="./" class="social-media-icon">
-                    <i class='bx bxl-facebook'></i> 
+                    <i class="bx bxl-facebook"></i> 
                 </a>
                 <a href="./" class="social-media-icon">
-                    <i class='bx bxl-twitter' ></i> 
+                    <i class="bx bxl-twitter" ></i> 
                 </a>
                 <a href="./" class="social-media-icon">
-                    <i class='bx bxl-instagram'></i>
+                    <i class="bx bxl-instagram"></i>
                 </a>
             </div>
         </div>
         <div class="line"></div>
-        <div class="isaac-info">
+        <div class="my-info">
             &copy; <span id="theyear"></span>
-        Isaac Iturralde * Torreon Mexico * <a href="https://www.byui.edu/online">Online Learning</a>
-        <p class="isaac-info-date">Last Modified: <span id="lastmod"></span></p>
+             Isaac Iturralde | Torreon Mexico |  
+            <a href = "https://www.byui.edu/online" target="blank"> BYUI Online Learning</a>
+            <p>_  Last Modified: <span id="lastmod"></span>
+            </p>
         </div>
     </footer>
+    
 <script src="scripts/script.js"></script>
+<script src="scripts/time-down.js"></script>
+
 </body>
 </html>
