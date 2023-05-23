@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="author" content="Isaac Iturralde">
-    <title>Recycling Hub at TRC</title>
+    <title>LaLaguana Chamber</title>
     <!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link href="styles/normalize.css" rel="stylesheet">
@@ -11,20 +11,18 @@
     <link href="styles/medium.css" rel="stylesheet">
     <link href="styles/large.css" rel="stylesheet"> 
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>   
-    <link rel="icon" href="images/favicon.ico"> 
+    <link rel="icon" href="images/favicon (1).ico"> 
 </head>
 
 <body>
 	<header style="padding-bottom: 5px;"> 
         <section class="intro"> 
-            <img class="img-intro" src="images/Recycling 4 (1) photoshop.png" alt="logo">
-            <h1>Recycling Hub at Torreon</h1>
+            <img class="img-intro" src="images/Recycling 4 (2).png" alt="logo">
+            <h1>La Laguna Chamber of Commerce</h1>
             <h2 id="h2">Together we make it!</h2>
-        </section>
-        <section id="time">
-            <time></time>
-            <aside></aside>
-            <p></p>
+            <div id="time">
+            <p>Generic date</p>
+            </div>
         </section>
     </header>
 
@@ -32,41 +30,84 @@
     <button id="hamburger"><span>&#9776;</span><span>X;</span></button>
         <ul id="menu">
             <li><a href="#">Home</a></li>
-            <li><a href="#">Products</a></li>
-            <li><a href="#">Location</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">Something</a></li>
-            <li><a href="#">About us</a></li>  
-            <li><a href="#">FAQ</a></li>
-            <li><a href="#">Support</a></li>      
+            <li><a href="#">Discover</a></li>
+            <li><a href="#">Directory</a></li>
+            <li><a href="#">Join</a></li>
+            <li><a href="#">Contact</a></li>    
         </ul>
     </nav>
 
-    <main>
-        <section class="hero">
-            <p>hero</p>
+    <main id="home-main">
+
+        <section id="hero-section" class="home-section">
+            <h2>Hero with site name and call to action</h2>
+            <picture class="hero-img">
+                <source media="(min-width: 35em) and (max-width: 1000px)" srcset="images/banner.png">
+                <source media="(min-width: 1000px)" srcset="images/banner.png">
+                <img src="images/banner.png" alt="city image">
+            </picture>
+            
+            <button><a href="./join.html">Join the Chamber</a></button>
         </section>
-        <section class="news">
-            <p>news</p>
+
+        <section id="event-section" class="home-section">
+            <h2>Immerse experiences</h2>
+            <h3>🎭 Arocena Museum</h3>
+            <p>Join us for the grand opening of our brand new local museum, Friday at 2:00. <span>more info...</span></p>
         </section>
-        <section class="events">
-            <p>events</p>
+
+        <section id="weather-section" class="home-section">
+            <h2>Weather</h2>
+            <div id="temperature-div">
+                <img src="" alt="">
+                <span id="temperature"></span>
+            </div>
+            <div id="weather-status"><h3></h3></div>
+            <hr>
+            <div id="weather-data">
+                <section id="wind-speed">
+                    <h4>Wind Speed: </h4><span></span>
+                </section>
+                <section id="wind-chill">
+                    <h4>Wind Chill: </h4><span></span>
+                </section>
+            </div>
         </section>
-        <section class="weather">
-            <p>weather</p>
+
+        <section id="news-section" class="home-section">
+            <h2>News Release</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sodales odio urna, eu consectetur sem tempor nec. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dapibus justo dui. Vivamus euismod laoreet dui nec molestie. Morbi elementum libero et vestibulum ullamcorper. Proin non porta leo. Morbi sem quam, eleifend sagittis urna non, placerat tempor metus.</p>
         </section>
-        <section class="join">
-            <p>join</p>
-        </section>
-        <section class="spotlights">
-            <p>spotlights</p>
-        </section>
+
+        <div id="spotlight-section" class="home-section">
+            
+            <div id="spotlight-container">
+                <section class="spotlight home-section">
+
+                </section>
+    
+                <section class="spotlight home-section">
+
+                </section>
+    
+                <section class="spotlight home-section">
+
+                </section>
+            </div>
+
+        </div>
+
+        <div id="join-section" class="home-section">
+            <button><a href="./join.html">Join Us!</a></button>
+            <p>Discover how to join the chamber of commerce and how it will benefit your organization!</p>
+        </div>
+
     </main>
       
     <footer>
         <div class="contenedor footer-content">
             <div class="contact-us">
-                <h2 class="brand">Recycling Hub at TRC</h2>
+                <h2 class="brand">La Laguna Chamber of Commerce</h2>
                 <p class="footer-motto">Together we make it!</p>
             </div>
             <div class="social-media">
@@ -93,6 +134,7 @@
     
 <script src="scripts/script.js"></script>
 <script src="scripts/time-down.js"></script>
+<script src="scripts/time.js"></script>
 
 </body>
 </html>

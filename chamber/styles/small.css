@@ -12,7 +12,7 @@ nav button{
 }
 
 nav{
-    background-color: #c2ff77;
+    background-color: #e1a907;
 }
 
 nav ul{
@@ -80,19 +80,23 @@ main{
     text-align: center;
 }
 
-.hero, .news, .events, .weather, .join, .spotlights{
-    flex-direction: row;
-    align-items: stretch;
-    border: solid 4px #000;
-    padding: 50px;
+
+#hero-section img {
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
 }
 
-
+picture{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 /*******************************************  footer *******************************************/
 
 
 footer{
-    border-top: solid 5px #4eb004;
+    border-top: solid 5px #e1a907;
     background-color: #000000;
     padding-bottom: 0.1px;
     text-decoration: none;
@@ -162,7 +166,7 @@ footer{
 
 .social-media-icon:hover{
     background: #fff;
-    color: #4eb004;
+    color: #e1a907;
 }
 
 .social-media-icon i{

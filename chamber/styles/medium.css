@@ -1,5 +1,5 @@
 /*35rem is also 560px when basefont is 16px*/
-@media only screen and (min-width: 40rem) {
+@media only screen and (min-width: 35rem) {
 
     nav button {display: none;}
 
@@ -39,7 +39,8 @@
         text-align: center;
     }
 
-    .hero, .news, .events, .weather, .join, .spotlights{
+    .home-section{
+        display: block;
         flex-direction: row;
         align-items: stretch;
         border: solid 4px #000;
@@ -54,7 +55,7 @@
     /****************************************** footer **************************************************/
 
     footer{
-        border-top: solid 5px #4eb004;
+        border-top: solid 5px #e1a907;
         background-color: #000000;
         padding-bottom: 0.1px;
         text-decoration: none;
@@ -115,7 +116,7 @@
 
     .social-media-icon:hover{
         background: #fff;
-        color: #4eb004;
+        color: #e1a907;
     }
 
     .social-media-icon i{

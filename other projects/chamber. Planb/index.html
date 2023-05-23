@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Laguna Chamber</title>
+
+    <link rel="icon" href="images/favicon (1).ico">
+
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>  
+
+</head>
+<body>
+    
+    <header>
+
+        <div id="header-content">
+            <div id="logo-section">
+                <img src="images/Recycling 4 (2).png" alt="logo" id="header-logo">
+                <section id="name-section">
+                    <h1>La Laguna</h1>
+                    <h2>Chamber of Commerce</h2>
+                </section>
+            </div>
+            <div class="social-media">
+                <a href="./" class="social-media-icon">
+                    <i class="bx bxl-facebook"></i> 
+                </a>
+                <a href="./" class="social-media-icon">
+                    <i class="bx bxl-twitter" ></i> 
+                </a>
+                <a href="./" class="social-media-icon">
+                    <i class="bx bxl-instagram"></i>
+                </a>
+            </div>
+            <div id="date-section">
+                <p>Generic date</p>
+            </div>
+        </div>
+
+    </header>
+
+    <nav>
+        <button id="hamburger"><span>&#9776;</span><span>X;</span></button>
+            <ul id="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Location</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Something</a></li>
+                <li><a href="#">About us</a></li>  
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Support</a></li>      
+            </ul>
+        </nav>
+
+    <main id="home-main">
+
+        <section id="hero-section" class="home-section">
+            <h2>Hero with site name and call to action</h2>
+            <picture>
+                <source media="(min-width: 35em) and (max-width: 1000px)" srcset="images/banner.png">
+                <source media="(min-width: 1000px)" srcset="images/banner.png">
+                <img src="images/banner.png" alt="city image">
+            </picture>
+            
+            <button><a href="./join.html">Join the Chamber</a></button>
+        </section>
+
+        <section id="event-section" class="home-section">
+            <h2>Ribbon Cutting</h2>
+            <h3>🎭 Quilmes Local Theather</h3>
+            <p>Join us for the grand opening of our brand new local theater, Friday at 2:00. <span>more info...</span></p>
+        </section>
+
+        <section id="weather-section" class="home-section">
+            <h2>Weather</h2>
+            <div id="temperature-div">
+                <img src="" alt="">
+                <span id="temperature"></span>
+            </div>
+            <div id="weather-status"><h3></h3></div>
+            <hr>
+            <div id="weather-data">
+                <section id="wind-speed">
+                    <h4>Wind Speed: </h4><span></span>
+                </section>
+                <section id="wind-chill">
+                    <h4>Wind Chill: </h4><span></span>
+                </section>
+            </div>
+        </section>
+
+        <section id="news-section" class="home-section">
+            <h2>News Release</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sodales odio urna, eu consectetur sem tempor nec. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dapibus justo dui. Vivamus euismod laoreet dui nec molestie. Morbi elementum libero et vestibulum ullamcorper. Proin non porta leo. Morbi sem quam, eleifend sagittis urna non, placerat tempor metus.</p>
+        </section>
+
+        <div id="spotlight-section" class="home-section">
+            
+            <div id="spotlight-container">
+                <section class="spotlight home-section">
+
+                </section>
+    
+                <section class="spotlight home-section">
+
+                </section>
+    
+                <section class="spotlight home-section">
+
+                </section>
+            </div>
+
+        </div>
+
+        <div id="join-section" class="home-section">
+            <button><a href="./join.html">Join Us!</a></button>
+            <p>Discover how to join the chamber of commerce and how it will benefit your organization!</p>
+        </div>
+
+    </main>
+
+    <footer>
+
+        <div id="footer-content">
+
+            <div id="footer-top-content">
+                <img src="images/Recycling 4 (2).png" alt="logo" id="footer-logo">
+                <h4>Quilmes Chamber of Commerce</h4>
+                <p>1697 Colon</p>
+                <p>Quilmes, Buenos Aires</p>
+                <p>info@quilmescc.org</p>
+                <p>+(54) 11 4442-9980</p>
+                <p>📍 Location Map</p>
+            </div>
+
+            <hr>
+
+            <div id="footer-bottom-content">
+                <div id="info">
+                    <p>© Quilmes Chamber</p>
+                    <p><strong>Fabrizio Carlassara</strong></p>
+                    <p>WDD 230 Project</p>
+                </div>
+                <p id="lastModified"></p>
+            </div>
+        </div>
+
+    </footer>
+    <script src="scripts/index.js"></script>
+    <script src="scripts/windchill.js"></script>
+    <script src="scripts/spotlight.js"></script>
+</body>
+</html>

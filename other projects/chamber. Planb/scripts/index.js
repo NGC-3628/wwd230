@@ -50,7 +50,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const navLinks = document.querySelector(".nav-links");
     const menu = document.querySelector("#menu");
     // Current date paragraph
-    const date = document.querySelector("#time p");
+    const date = document.querySelector("#date-section p");
     // Date object
     const dateObj = new Date();
     // Last modified paragraph
