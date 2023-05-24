@@ -80,7 +80,7 @@ document.addEventListener("DOMContentLoaded", () => {
         banner.classList.add("banner");
         // Create h4 for the content
         let bannerContent = document.createElement("h4");
-        bannerContent.innerText = "🤝 Come join us for the chamber meet and greet Wednesday at 7:00 pm 🤝";
+        bannerContent.innerText = "🤝";
         // Append elements
         banner.append(bannerContent);
         document.querySelector("header").prepend(banner);

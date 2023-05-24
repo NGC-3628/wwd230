@@ -103,5 +103,24 @@
         margin-bottom: 60px;
     }
 
+
+    .footer-content{
+        display: grid;
+        grid-template-columns: 750px 750px;
+        grid-template-rows: auto;
+    }
+
+
+    #footer-top-content{
+        grid-column: 1;
+        display: contents;
+        text-align: center;
+    }
+
+    .social-media{
+        grid-column: 2;
+        margin-left: -17rem;
+    }
+
 }
     

@@ -142,6 +142,24 @@
         background-color: #000000;
         color: #fff;
     }
+
+    .footer-content{
+        display: grid;
+        grid-template-columns: 422px 422px;
+        grid-template-rows: auto;
+    }
+
+
+    #footer-top-content{
+        grid-column: 1;
+        display: contents;
+        text-align: center;
+    }
+
+    .social-media{
+        grid-column: 2;
+        margin-left: -7rem;
+    }
     
 
 }
