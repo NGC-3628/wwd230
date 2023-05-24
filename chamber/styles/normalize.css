@@ -1,5 +1,4 @@
 
-
 html {
   line-height: 1.15; /* 1  Correct the line height in all browsers.*/ 
   -ms-text-size-adjust: 100%; /* 2 */
@@ -9,6 +8,8 @@ html {
 
 *{
   scroll-behavior: smooth;
+  font-family: 'Roboto Condensed', sans-serif;
+
 }
 /**
 * Remove the margin in all browsers (opinionated).

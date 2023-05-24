@@ -30,6 +30,9 @@ nav ul li a{
     text-decoration: none;
     color: #000000;
     border-top: 1px solid rgba(0, 0, 0, 0.5);  /*It adds border to each element of the list*/
+    font-family: 'Monoton', cursive;
+    font-size: larger;
+
 }
 
 nav ul li a:hover {
@@ -64,6 +67,7 @@ header{
     justify-content: flex-start;
     align-items: center;
     flex-direction: column;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 .img-intro{
