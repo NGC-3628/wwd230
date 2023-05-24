@@ -2,6 +2,9 @@
 html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
 /*----------- apply a natural box layout model to all elements --------------*/
+/*
+*                    MENU NAVEGATION
+*/
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 nav button{
     margin: 2rem, 2vw;
@@ -50,7 +53,7 @@ nav ul.open{display: block;}
 
 #hamburger.open span:nth-child(1) {display: none;}
 #hamburger.open span:nth-child(2) {display: block;}
-
+/*********************** header elements **************************/
 header{
     background-color: black;
     color: #fff;
@@ -65,6 +68,17 @@ header{
 
 .img-intro{
     max-width: 200px;
+}
+
+.banner{
+    background-color: var(--navbar-bk-color);;
+    margin:0 25rem;
+    margin-bottom: 3em;
+    padding: 0.5em;
+    border-radius: 1em;
+    border: 5px #e1a907 solid;
+    text-align: center;
+    text
 }
 
 /*******************************************  main *******************************************/
