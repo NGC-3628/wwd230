@@ -8,6 +8,16 @@
         display: flex;
     }
     
+
+    .banner{
+        background-color: var(--navbar-bk-color);;
+        margin:0 auto;
+        margin-bottom: 3em;
+        padding: 0.5em;
+        border-radius: 1em;
+        border: 5px #e1a907 solid;
+        text-align: center;
+    }
     /*************************************/
 
     .home-section{
