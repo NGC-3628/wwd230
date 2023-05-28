@@ -98,16 +98,28 @@ main{
 }
 
 
-#hero-section img {
+#hero-section {
     width: 100%;
     max-width: 1200px;
     height: auto;
+    padding: 0;
+    position: relative;
+    gap: 0.5em;
 }
 
 picture{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.event-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    box-shadow: 1px 1px 10px black;
+    border-radius: 5px;
 }
 /*******************************************  footer *******************************************/
 
