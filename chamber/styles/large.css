@@ -74,7 +74,9 @@
     }
 
 
-
+    .img-event-large{
+        max-width: 20rem;   
+    }
 
     /* Discovery page */
     #discovery-pics {

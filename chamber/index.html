@@ -14,13 +14,16 @@
     <link href="styles/medium.css" rel="stylesheet">
     <link href="styles/large.css" rel="stylesheet"> 
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>   
+
     <link rel="icon" href="images/Recycling 4 (2).png"> 
 </head>
 
 <body>
 	<header style="padding-bottom: 5px;"> 
         <section class="intro"> 
-            <img class="img-intro" src="images/Recycling 4 (2).png" alt="logo">
+            <figure class="logo">
+                <img class="img-intro" src="images/Recycling 4 (2).webp" alt="logo">
+            </figure>
             <h1>La Laguna Chamber of Commerce</h1>
             <h2 id="h2">Together we make it!</h2>
             <div id="time">
@@ -45,9 +48,9 @@
         <section id="hero-section" class="home-section">
             <h2>Hero with site name and call to action</h2>
             <picture class="hero-img">
-                <source media="(min-width: 35em) and (max-width: 1000px)" srcset="images/banner.png">
-                <source media="(min-width: 1000px)" srcset="images/banner.png">
-                <img src="images/banner.png" alt="city image">
+                <source media="(min-width: 35em) and (max-width: 1000px)" srcset="images/medium.jpg">
+                <source media="(min-width: 1000px)" srcset="images/large.jpg">
+                <img src="images/small.jpg" alt="city image">
             </picture>
             
             <button><a href="./join.html">Join the Chamber</a></button>
@@ -56,6 +59,11 @@
         <section id="event-section" class="home-section">
             <h2>Immerse experiences</h2>
             <h3>🎭 Arocena Museum</h3>
+            <picture class="event-image">
+                <source media="(min-width: 35em) and (max-width: 1000px)" srcset="images/address-medium.jpg">
+                <source media="(min-width: 1000px)" srcset="images/address-large.jpg">
+                <img class="img-event-large" src="images/address-small.jpg" alt="banner of Museum">
+            </picture>
             <p>Join us for the grand opening of our brand new local museum, Friday at 2:00. <span>more info...</span></p>
         </section>
 
@@ -121,7 +129,7 @@
                 </a>
             </div>
             <div id="footer-top-content">
-                <img src="images/Recycling 4 (2).png" alt="logo" id="footer-logo" style="max-width: 100px; justify-self: center;">
+                <img src="images/Recycling 4 (2).webp" alt="logo" id="footer-logo" style="max-width: 100px; justify-self: center;">
                 <h3>La Laguna Chamber of Commerce</h3>
                 <p>526 Carr. Torreon-St. Peter Km 12</p>
                 <p>Senderos, Torreon</p>
@@ -143,6 +151,7 @@
 <script src="scripts/script.js"></script>
 <script src="scripts/time-down.js"></script>
 <script src="scripts/time.js"></script>
+<script src="scripts/windchill.js"></script>
 
 </body>
 </html>

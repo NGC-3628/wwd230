@@ -36,9 +36,9 @@ function getWindChill(temperature, windSpeed) {
 
 document.addEventListener("DOMContentLoaded", () => {
     // API url
-    const url = "https://api.openweathermap.org/data/2.5/weather?q=Quilmes&units=metric&appid=51c9e7e908aa3baccb967c02e9950992";
+   // const url = "https://api.openweathermap.org/data/2.5/weather?q=Quilmes&units=metric&appid=51c9e7e908aa3baccb967c02e9950992";
     // Fetch API and display
-    apiFetch(url).then(data => displayResults(data));
+    //apiFetch(url).then(data => displayResults(data));
     // Get temperature value
     const temperature = toFahrenheit(parseFloat(document.querySelector("#temperature").innerText));
     // Get wind speed value
