@@ -14,6 +14,10 @@
     <link href="styles/medium.css" rel="stylesheet">
     <link href="styles/large.css" rel="stylesheet"> 
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>   
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
 
     <link rel="icon" href="images/Recycling 4 (2).png"> 
 </head>
@@ -59,11 +63,15 @@
         <section id="event-section" class="home-section">
             <h2>Immerse experiences</h2>
             <h3>🎭 Arocena Museum</h3>
-            <picture class="event-image">
-                <source media="(min-width: 35em) and (max-width: 1000px)" srcset="images/address-medium.jpg">
-                <source media="(min-width: 1000px)" srcset="images/address-large.jpg">
-                <img class="img-event-large" src="images/address-small.jpg" alt="banner of Museum">
-            </picture>
+            <div id="event-image">
+                <ul class="slider-1">
+                  <li><img src="images/slide/museo.1-S.jpg" alt=""></li>
+                  <li><img src="images/slide/museo.2-S.jpg" alt=""></li>
+                  <li><img src="images/slide/museo.3-S.jpg" alt=""></li>
+                  <li><img src="images/slide/museo.4-S.jpg" alt=""></li>
+                  <li><img src="images/slide/museo.5-S.jpg" alt=""></li>
+                </ul>
+              </div>
             <p>Join us for the grand opening of our brand new local museum, Friday at 2:00. <span>more info...</span></p>
         </section>
 
@@ -93,16 +101,28 @@
         <div id="spotlight-section" class="home-section">
             
             <div id="spotlight-container">
-                <section class="spotlight home-section">
-
+                <section id="sports-container" class="spotlight home-section">
+                    <div id="event-image">
+                        <ul class="slider-2">
+                          <li><img src="images/slide/Soccer.png" alt=""></li>
+                          <li><img src="images/slide/Baseball.png" alt=""></li>
+                          <li><img src="images/slide/Basketball.png" alt=""></li>
+                        </ul>
+                      </div>
+                    <h2>Come and support our local sport teams!</h2>
+                    <button id="sports-container-button"><a href="/index">Support 'em!</a></button>
                 </section>
     
-                <section class="spotlight home-section">
-
+                <section class="spotlight-home-section">
+                    <h3>The best ice cream in La Laguna</h3>
+                    <img src="images/ice-cream-store.png" alt="Neveria Nenas Logo">
+                    <p>Neverie Nena, at Arboledas</p>
                 </section>
     
-                <section class="spotlight home-section">
-
+                <section class="spotlight-home-section">
+                    <h3>Funniest Activity</h3>
+                    <img src="images/gotcha.png" alt="Laguna Paintball logo">
+                    <p>Laguna Paint Ball</p>
                 </section>
             </div>
 
@@ -124,7 +144,7 @@
                 <a href="./" class="social-media-icon">
                     <i class="bx bxl-twitter" ></i> 
                 </a>
-                <a href="./" class="social-media-icon">
+                <a href="https://www.instagram.com/yes.whoo/" class="social-media-icon">
                     <i class="bx bxl-instagram"></i>
                 </a>
             </div>
@@ -152,6 +172,7 @@
 <script src="scripts/time-down.js"></script>
 <script src="scripts/time.js"></script>
 <script src="scripts/windchill.js"></script>
+<script src="scripts/slide.js"></script>
 
 </body>
 </html>
