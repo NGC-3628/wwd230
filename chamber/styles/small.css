@@ -349,3 +349,111 @@ footer{
     align-items: center;
     margin: 3rem;
 }
+
+/*******************************************************************************************************************/
+/************************************************** Discovery page *************************************************/
+
+.card-text {
+    padding: 0;
+    margin: 0;
+    font-size: 0.8em;
+}
+
+#directory-main {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+/* Discovery page */
+
+#discovery-info {
+    background-color: var(--secondary-bk-color);
+    display: flex;
+    padding: 1em;
+    flex-direction: column;
+    gap: 1em;
+}
+
+#discovery-info h2 {
+    background-color: var(--main-bk-color);
+    color: white;
+    padding: 0.5em;
+    border-radius: 1em;
+}
+
+#discovery-info p {
+    margin: 0;
+}
+
+#discovery-pics {
+    margin-top: 1em;
+    background-color: var(--secondary-bk-color);
+    padding: 1em;
+}
+
+.discovery-pic {
+    /* border: 1px black solid; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* gap: 1em; */
+    padding: 1em;
+    border-radius: 0.5em;
+}
+
+picture { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.discovery-pic picture img {
+    width: 100%;
+}
+
+.discovery-pic picture img:hover {
+    box-shadow: 0 0 50px #333;
+}
+
+@media screen and (max-width: 35em) {
+
+
+    .discovery-pic picture img:hover {
+        box-shadow: 0 0 0 0;
+    }
+
+    #discovery-pics {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+    }
+    /* Discovery page */
+
+    .card:nth-of-type(odd) {
+        background-color: var(--secondary-bk-color);
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        padding: 1em;
+    }
+
+    .card-body {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .card img {
+        display: none;
+    }
+
+    .card-title {
+        text-align: left;
+        font-size: 0.8em;
+    }
+
+}
