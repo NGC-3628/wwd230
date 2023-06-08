@@ -23,10 +23,14 @@ table {
 
 
   caption {
-    font-size: 1.5em;
+    font-size: 1.1em;
+    padding-top: 10px;
     font-weight: bold;
     margin-bottom: 10px;
+    caption-side: bottom;
+    color: var(--back);
   }
+
 
   th, td {
     padding: 8px;
@@ -44,5 +48,5 @@ table {
   }
 
   tbody tr:hover {
-    background-color: #e0e0e0;
+    background-color: #111bd446;
   }
