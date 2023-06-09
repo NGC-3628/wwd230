@@ -457,3 +457,126 @@ picture {
     }
 
 }
+/*************************************************************************************************************************/
+/**************************************************** Join page **********************************************************/
+#join-main {
+    padding: 1em;
+    background-color: var(--secondary-bk-color);
+}
+
+#join-main h2 {
+    background-color: var(--main-bk-color);
+    color: white;
+    border-radius: 1em;
+    padding: 0.5em;
+}
+
+#join-main form {
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5em;
+}
+
+#join-main form div {
+    width: 600px;
+}
+
+.form-label {
+    background-color: var(--main-bk-color);
+    color: rgb(0, 0, 0);
+    padding: 0.5em 1em;
+    border-radius: 1em 0 0 1em;
+}
+
+#join-main input, #join-main select {
+    padding: 0.5em 1em;
+    font-size: 16px;
+    flex: 1;
+}
+
+#join-main form div {
+    display: flex;
+    flex-direction: row;
+    gap: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+#description-div {
+    flex-direction: column !important;
+}
+
+#description-div label {
+    border-radius: 1em 1em 0 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#description {
+    width: 100%;
+    box-sizing: border-box;
+    height: auto;
+    padding: 1em;
+}
+
+button[type=submit] {
+    background-color: var(--main-bk-color);
+    color: white;
+    padding: 0.5em 1em;
+    font-size: 1em;
+    border-radius: 2.5em;
+    font-weight: bolder;
+}
+
+button[type=submit]:hover {
+    box-shadow: 0 0 10px #333;
+}
+
+#memberships-div {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    justify-content: space-evenly;
+    margin-top: 1em;
+    max-width: 400px;
+    background-color: #000000;
+    border-radius: 2em;
+    border: 3px solid #e1a907; /* Add border style */
+    overflow: visible; /* Allow content to overflow */
+}
+
+.membership-info {
+    width: 100%;
+    border-radius: 2em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.membership-info h4 {
+    margin-top: 1em;
+    color: #fff;
+}
+
+.membership-benefits li {
+    padding: 0 1em;
+    color: #fff;
+}
+
+/* Thank you page */
+
+#thank-you-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--secondary-bk-color);
+    padding: 1em;
+}
+
+#thank-you-main p {
+    text-align: center;
+}
