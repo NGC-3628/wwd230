@@ -86,10 +86,6 @@ header{
 
 /*******************************************  main *******************************************/
 
-main h2{
-    
-}
-
 main{
     display: flex;
     flex-direction: column;
@@ -431,7 +427,7 @@ picture {
     /* Discovery page */
 
     .card:nth-of-type(odd) {
-        background-color: var(--secondary-bk-color);
+        background-color: #d5f9ff;
     }
 
     .card {
@@ -457,47 +453,58 @@ picture {
     }
 
 }
+
 /*************************************************************************************************************************/
 /**************************************************** Join page **********************************************************/
-#join-main {
+#join-main-content-j {
     padding: 1em;
-    background-color: var(--secondary-bk-color);
+    background-color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: stretch;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
-#join-main h2 {
-    background-color: var(--main-bk-color);
+#join-main-content-j h2 {
+    background-color:#e1a907;
     color: white;
     border-radius: 1em;
     padding: 0.5em;
 }
 
-#join-main form {
+#join-main-content-j form {
     margin-top: 2em;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-end;
+    align-items: inherit;
     gap: 1.5em;
+    flex-wrap: nowrap;
 }
 
-#join-main form div {
-    width: 600px;
+#join-main-content-j form div {
+
 }
+
 
 .form-label {
-    background-color: var(--main-bk-color);
-    color: rgb(0, 0, 0);
+    background-color: #e4007c;
+    color: #fff;
+    font-size: larger;
+    font-weight: bolder;
     padding: 0.5em 1em;
     border-radius: 1em 0 0 1em;
+    border: 2px #e1a907 solid;
 }
 
-#join-main input, #join-main select {
+#join-main-content-j input, #join-main-content-j select {
     padding: 0.5em 1em;
     font-size: 16px;
     flex: 1;
 }
 
-#join-main form div {
+#join-main-content-j form div {
     display: flex;
     flex-direction: row;
     gap: 0;
@@ -523,7 +530,7 @@ picture {
 }
 
 button[type=submit] {
-    background-color: var(--main-bk-color);
+    background-color: #e1a907;
     color: white;
     padding: 0.5em 1em;
     font-size: 1em;
@@ -532,7 +539,7 @@ button[type=submit] {
 }
 
 button[type=submit]:hover {
-    box-shadow: 0 0 10px #333;
+    box-shadow: 0 0 10px #dda602;
 }
 
 #memberships-div {
@@ -542,14 +549,13 @@ button[type=submit]:hover {
     justify-content: space-evenly;
     margin-top: 1em;
     max-width: 400px;
-    background-color: #000000;
-    border-radius: 2em;
-    border: 3px solid #e1a907; /* Add border style */
-    overflow: visible; /* Allow content to overflow */
+    background-color: #e1aa07;
+    color:#fff;
+    border-radius: 3em;
 }
 
 .membership-info {
-    width: 100%;
+    width: 90%;
     border-radius: 2em;
     display: flex;
     flex-direction: column;
@@ -559,24 +565,22 @@ button[type=submit]:hover {
 .membership-info h4 {
     margin-top: 1em;
     color: #fff;
+    font-size: larger;
+    font-weight: lighter;
+    font-family: 'Monoton' ;
+    font-style: italic;
+    text-shadow: 1px 3px 3px #333;
 }
 
 .membership-benefits li {
     padding: 0 1em;
     color: #fff;
+    font-size: larger;
+    text-shadow: 1px 1px 2px #333;
 }
 
 /* Thank you page */
 
-#thank-you-main {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--secondary-bk-color);
-    padding: 1em;
-}
 
-#thank-you-main p {
-    text-align: center;
-}
+
+
