@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,200;0,400;1,200;1,400&display=swap');
+
+:root{
+    --main-ws-color: #f5f5dc;
+    --secondary-ws-color: #ed1c24;
+    --main-fnt-color: #000;
+    --secondary-fnt-color: #fff;
+    --h-fnt-family: 'Libre Franklin';
+    --p-fnt-family: 'Robota Slab';
+}
+
+body{
+font-family: var(--h-fnt-family), sans-serif;
+}
+
+header, main, footer {
+    margin: 0 auto;
+    margin-top: 1em;
+}
+
+header, footer {
+    background-color: var(--secondary-ws-color);
+    color: var(--main-fnt-color);
+    border-radius: 0.5em;
+}
+
+header, footer {
+    padding: .5em;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    background-color: var(--secondary-ws-color);
+    padding: 1em;
+}
+
+h1, h2, h3, h4 {
+    font-family: var(--h-fnt-family), sans-serif;
+    text-align: center;
+    margin: 0;
+    color: #fff;
+}
+
+footer h4 {
+    color: var(--secondary-fnt-color);
+
+}
+
+/* Card styles */
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    gap: 1em;
+}
+
+.card {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 0.5em;
+    align-items: flex-start;
+    border: 1px solid rgb(249, 246, 246);
+    border-radius: 1em;
+    max-width: 340px;
+}
+
+.card:hover{
+    box-shadow: 2px 2px 30px #fff6f6;
+}
+
+.card img {
+    width: 340px;
+    height: 440px;
+    border-radius: 1em 1em 0 0;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    padding: 0.75em;
+}
+
+.card-title {
+    text-align: left;
+}
+
+.card-text {
+    padding: 0;
+    margin: 0;
+}
+
+.filters {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 1em;
+}
+
+.filter {
+    font-size: 1.25em;
+    border-radius: .5em;
+    padding: 0.5em;
+    cursor: pointer;
+    background-color: #fff6f6;
+}
+
+.filter:hover {
+    background-color: #ffffff;
+    box-shadow: 3px 3px 0px #000;
+}
