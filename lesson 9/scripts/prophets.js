@@ -32,8 +32,6 @@ document.addEventListener("DOMContentLoaded", () => {
     // Get prophets data and display
     getProphetData().then(prophets => displayProphets(prophets));
 });
-    // Get prophets data and display
-    getProphetData().then(prophets => displayProphets(prophets));
 
 
 /**
