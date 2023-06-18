@@ -1,0 +1,140 @@
+{
+    "companies": [
+        {
+            "name": "Nenas Neveria",
+            "field": "Food",
+            "location": "Av. Bravo 5625- Ciudad Nazas- Torreon",
+            "Origin": "Torreon",
+            "Workforce": 15,
+            "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/church-history/joseph-smith-art-lds-37715-gallery.jpg"
+        },
+        {
+            "name": "Lala",
+            "field": "Food industry",
+            "location": "Blvd Juan Pablo II Parque Industrial Norte km 9 Torreon",
+            "Origin": "Torreon",
+            "Workforce": 10000,
+            "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/church-history/joseph-smith-art-lds-37715-gallery.jpg"
+        },
+        {
+            "name": "Soriana",
+            "field": "Food",
+            "location": "Blvd Revolucion S/N Jardin Torreon",
+            "Origin": "Torreon",
+            "Workforce": 5000,
+            "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/church-history/joseph-smith-art-lds-37715-gallery.jpg"
+        },
+        {
+            "name": "Lauguna Paintball",
+            "field": "Leausre",
+            "location": "Periferico Norte km 26 Expcenter la Feria Torreon",
+            "Origin": "Torreon",
+            "Workforce": 200,
+            "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/church-history/joseph-smith-art-lds-37715-gallery.jpg"
+        },
+        {
+            "name": "Penoles",
+            "field": "Ore Industry",
+            "location": "Periferico Sur S/N Metmex Torreon",
+            "Origin": "Torreon",
+            "Workforce": 20000,
+            "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/church-history/joseph-smith-art-lds-37715-gallery.jpg"
+        },
+        {
+            "name": "Universidad Autonoma de Durango",
+            "field": "Education",
+            "location": "2360 Av. Santa Rosa Gomez Palacio",
+            "Origin": "Gomez Palacio",
+            "Workforce": 450,
+            "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/church-history/joseph-smith-art-lds-37715-gallery.jpg"
+        },
+        {
+            "name": "Linamar",
+            "field": "Metal industry",
+            "location": "Nogalera Blvd 45 Parque Industrial Ferropuerto Torreon",
+            "Origin": "Canada",
+            "Workforce": 2000,
+            "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/church-history/joseph-smith-art-lds-37715-gallery.jpg"
+        },
+        {
+            "name": "John Deere",
+            "field": "Automotive Industry",
+            "location": "Carrereta a Mieleras km 12 Parque Industrial Ferropuerto Torreon",
+            "Origin": "USA",
+            "Workforce": 3500,
+            "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/church-history/joseph-smith-art-lds-37715-gallery.jpg"
+        },
+        {
+            "name": "Nissan",
+            "field": "Automotive Industry",
+            "location": "Nogalera Blvd Lote 5-12 Parque Industrial Ferropuerto Torreon",
+            "Origin": "Japan",
+            "Workforce": 4000,
+            "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/church-history/joseph-smith-art-lds-37715-gallery.jpg"
+        },
+        {
+            "name": "GYM Arsenal",
+            "field": "Leausre",
+            "location": "Periferico Norte km 2 Las arboledas Torreon",
+            "Origin": "Torreon",
+            "Workforce": 50,
+            "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/church-history/joseph-smith-art-lds-37715-gallery.jpg"
+        },
+        {
+            "name": "Corona Cervecera",
+            "field": "Food industry",
+            "location": "Av. Saltillo 400 2399 La aviacion Torreon ",
+            "Origin": "Mexico",
+            "Workforce": 5000,
+            "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/church-history/joseph-smith-art-lds-37715-gallery.jpg"
+        },
+        {
+            "name": "Simsa",
+            "field": "Petrol industry",
+            "location": "Carretera a San Pedro km 12 Parque Industrial Norte Torreon",
+            "Origin": "Torreon",
+            "Workforce": 2000,
+            "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/church-history/joseph-smith-art-lds-37715-gallery.jpg"
+        },
+        {
+            "name": "Valencia Caficultura",
+            "field": "Food",
+            "location": "Periferico Norte km 25 Plaza Antwerp Lote 3 Torreon",
+            "Origin": "Torreon",
+            "Workforce": 20,
+            "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/church-history/joseph-smith-art-lds-37715-gallery.jpg"
+        },
+        {
+            "name": "Caterpillar",
+            "field": "Automotive Industry",
+            "location": "Nogales Avenue S/N Lote 5-23 Parque Industrial Ferropuerto Torreon",
+            "Origin": "USA",
+            "Workforce": 4000,
+            "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/church-history/joseph-smith-art-lds-37715-gallery.jpg"
+        },
+        {
+            "name": "Planetarium Museum",
+            "field": "Leausre",
+            "location": "Blvd Juan Pablo II Bosque Urbano km 2 Torreon",
+            "Origin": "Torreon",
+            "Workforce": 50,
+            "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/church-history/joseph-smith-art-lds-37715-gallery.jpg"
+        },
+        {
+            "name": "Universidad Tecnologica de Torreon",
+            "field": "Education",
+            "location": "Blvd Revolucion km 3 Torreon Ejido Torreon",
+            "Origin": "Coahuila",
+            "Workforce": 400,
+            "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/church-history/joseph-smith-art-lds-37715-gallery.jpg"
+        },
+        {
+            "name": "Hacienda Mi Ranchito",
+            "field": "Leausre",
+            "location": "Periferico Norte km 1 Lerdo DGO",
+            "Origin": "Lerdo",
+            "Workforce": 100,
+            "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/church-history/joseph-smith-art-lds-37715-gallery.jpg"
+        }
+    ]
+}
