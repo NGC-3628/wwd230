@@ -1,5 +1,5 @@
 //JSON link
-const url = "https://github.com/NGC-3628/wwd230/blob/main/lesson%209/companies.json";
+const url = "https://ngc-3628.github.io/wwd230/other%20projects/companies.json";
 
 
 // Add event listeners to filters
