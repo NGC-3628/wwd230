@@ -3,11 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>La Laguna Chamber Directory</title>
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>   
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&family=Roboto+Condensed:wght@300;700&display=swap" rel="stylesheet">
+    
+    
+
+    <script src="scripts/direcotry.js"></script>
 </head>
 <body>
+
+
+    <!-----------------------------------  HEADER -------------------------------------->
     <header>
-        <section class="intro"> 
+        <section class="intro">
             <figure class="logo">
                 <img class="img-intro" src="images/Recycling 4 (2).webp" alt="logo">
             </figure>
@@ -29,7 +44,22 @@
             </ul>
     </nav>
 
+    <!-----------------------------------  MAIN -------------------------------------->
 
+
+    <main>
+
+        <div class="filters">
+            <button class="filter" id="noFilter">No Filter</button>
+            <button class="filter" id="decade-filter">Served More Than a Decade</button>
+        </div>
+
+        <div class="cards"></div>
+
+    </main>
+
+
+    <!-----------------------------------  FOOTER -------------------------------------->
     <footer>
         <div class="contenedor footer-content">
             <div class="social-media">
@@ -57,10 +87,17 @@
         <div class="my-info">
             &copy; <span id="theyear"></span>
              Isaac Iturralde | Torreon Mexico |  
-            <a href = "https://www.byui.edu/online" target="blank"> BYUI Online Learning </a>
+            <a href = "https://www.byui.edu/online" target="blank"> BYUI Online Learning </a> 
             <p>_  Last Modified: <span id="lastmod"></span>
             </p>
         </div>
     </footer>
+
+
+    <script src="scripts/time-down.js"></script>
+    <script src="scripts/time.js"></script>
+    <script src="scripts/lastvisit.js"></script>
+    <script src="scripts/script.js"></script>
+
 </body>
 </html>
