@@ -582,5 +582,21 @@ button[type=submit]:hover {
 /* Thank you page */
 
 
+/************************************  DIRECTORY PAGE ********************************************/
 
+.cards{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #fff1f1;
+}
 
+.directoryPage-img{
+    max-width: auto;
+}
+
+.directoryPage-location , .directoryPage-field{
+    font-size: larger;
+}
