@@ -51,6 +51,7 @@ function displayCompanies(companies) {
     card.appendChild(field);
     card.appendChild(location);
 
+    //Make elements plastic to work with CSS
     name.setAttribute('class', 'directoryPage-name');
     logo.setAttribute('class', 'directoryPage-img');
     field.setAttribute('class', 'directoryPage-field');

@@ -43,12 +43,12 @@
             <li><a href="discover.html">Discover</a></li>
             <li><a href="directory.html">Directory</a></li>
             <li><a href="join.html">Join</a></li>
-            <li><a href="#">Contact</a></li>    
+            <li><a href="#">Contact</a></li>
         </ul>
     </nav>
 
     <main id="home-main">
-
++
         <section id="hero-section" class="home-section">
             <h2>Hero with site name and call to action</h2>
             <picture class="hero-img">
@@ -78,15 +78,20 @@
         <section id="weather-section" class="home-section">
             <h2>Weather</h2>
             <div id="temperature-div">
-              <span id="temperature"></span>
+                <img src="" alt="">
+                <span id="temperature"></span>
             </div>
-            <div id="wind-speed">
-              <span id="wind-speed-value"></span>
+            <div id="weather-status"><h3></h3></div>
+            <hr>
+            <div id="weather-data">
+                <section id="wind-speed">
+                    <h4>Wind Speed: </h4><span></span>
+                </section>
+                <section id="wind-chill">
+                    <h4>Wind Chill: </h4><span></span>
+                </section>
             </div>
-            <div id="wind-chill">
-              <span id="wind-chill-value"></span>
-            </div>
-          </section>
+        </section>
 
         <section id="news-section" class="home-section">
             <h2>News Release</h2>
@@ -166,8 +171,11 @@
 <script src="scripts/script.js"></script>
 <script src="scripts/time-down.js"></script>
 <script src="scripts/time.js"></script>
-<script src="scripts/windchill.js"></script>
+<script src="scripts/windchill.js" defer></script>
 <script src="scripts/slide.js"></script>
+
 
 </body>
 </html>
+
+  
