@@ -53,7 +53,7 @@
         display: block;
         flex-direction: row;
         align-items: stretch;
-        border: solid 4px #000;
+        /*border: solid 4px #000;*/
         padding: 100px;
     }
 

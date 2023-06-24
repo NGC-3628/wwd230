@@ -104,6 +104,7 @@ main{
     padding: 0;
     position: relative;
     gap: 0.5em;
+    background-color: #feaeda63;
 }
 
 #hero-section button{
@@ -122,6 +123,7 @@ main{
 #hero-section button a {
     text-decoration: none;
     color: white;
+    
 }
 
 /********************          STARTS slider-1: events parts        **************/
@@ -177,6 +179,7 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #fffbe0;
 }
 
 /********************          STARTS slider-2: spotlights-sports        **************/
@@ -464,6 +467,7 @@ picture {
     align-items: stretch;
     flex-direction: row;
     flex-wrap: wrap;
+    background-image: linear-gradient(to top, rgba(11, 94, 8, 0.303) 0%, rgba(134, 249, 176, 0.292) 100%), url(../images/large.jpg);
 }
 
 #join-main-content-j h2 {
