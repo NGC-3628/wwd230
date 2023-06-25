@@ -3,7 +3,7 @@ const currentTemp = document.querySelector('#current-temp');
 const weatherIcon = document.querySelector('#weather-icon');
 const captionDesc = document.querySelector('figcaption');
 
-const url = "https://api.openweathermap.org/data/2.5/weather?q=Torreon&units=imperial&appid=d297df6b49870f2c7ec944780213cbca"
+const url = "https://api.openweathermap.org/data/2.5/weather?q=Fairbanks&units=imperial&appid=d297df6b49870f2c7ec944780213cbca"
 
 async function apiFetch() {
     try {
