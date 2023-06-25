@@ -1,0 +1,50 @@
+*{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+header{
+    background-color: aqua;
+}
+
+header h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    font-size: larger;
+}
+
+main figcaption{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+    font-size: larger;
+    text-decoration:double;
+}
+
+main figure{
+    padding: 1rem;
+}
+
+
+footer{
+    background-color: silver;
+    padding-top: 2rem;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+}
