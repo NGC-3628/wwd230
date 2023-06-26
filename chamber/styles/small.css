@@ -83,6 +83,10 @@ header{
     text-align: center;
 }
 
+.img-intro {
+    background-color: transparent;
+  }
+
 /*******************************************  main *******************************************/
 
 main{
