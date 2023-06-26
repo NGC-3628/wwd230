@@ -205,6 +205,7 @@ main{
     height: auto;
     border-radius: 1em;
     max-width: 200px;
+    margin-left: 3rem;
   }
 
 /****************       ENDS slider-2: spotlights-sports       **************/
@@ -250,12 +251,22 @@ main{
 
 /*******************************************  footer *******************************************/
 
+/* footer {
+    background-image: url("/chamber/images/rio_bravo_2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(126, 207, 69); /* Adjust the transparency here 
+    color: #ffffff;  Text color 
+  } 
+*/
 
 footer{
     border-top: solid 5px #e1a907;
     background-color: #000000;
     padding-bottom: 0.1px;
     text-decoration: none;
+    background-image: linear-gradient(to top, rgba(32, 21, 0, 0.818) 0%, rgba(53, 33, 3, 0.911) 100%), url(../images/large.jpg);
+
 }
 
 .footer-content{
@@ -603,4 +614,15 @@ button[type=submit]:hover {
 
 .directoryPage-location , .directoryPage-field{
     font-size: larger;
+}
+
+/****************************************** WEATHER ***************************************************/
+
+main figcaption{
+    font-size: larger;
+    font-family: 'Monoton', cursive;
+}
+
+.weather img{
+    max-width: 40%;
 }
