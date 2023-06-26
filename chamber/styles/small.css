@@ -478,7 +478,7 @@ picture {
     align-items: stretch;
     flex-direction: row;
     flex-wrap: wrap;
-    background-image: linear-gradient(to top, rgba(11, 94, 8, 0.303) 0%, rgba(134, 249, 176, 0.292) 100%), url(../images/large.jpg);
+    background-image: linear-gradient(to top, rgba(252, 251, 250, 0.818) 0%, rgba(199, 254, 255, 0.911) 100%), url(../images/planetL.jpg);
 }
 
 #join-main-content-j h2 {
