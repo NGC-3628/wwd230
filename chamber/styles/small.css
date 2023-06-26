@@ -260,6 +260,17 @@ main{
     color: white;
 } 
 
+.newstuff{
+    text-align: justify;
+    margin: 2rem;
+    font-size: large;
+}
+
+.newstuff-img{
+    max-width: 20%;
+    display: inline;
+}
+
 /*******************************************  footer *******************************************/
 
 /* footer {
