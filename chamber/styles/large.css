@@ -39,6 +39,19 @@
         height: auto;
     }
 
+    #hero-section button{
+        position:absolute;
+        right: 1em;
+        bottom: 1em;
+        background-color: #e1a907;
+        color: var(--main-font-color);
+        border: 3px white solid;
+        border-radius: 1em;
+        padding: 0.75em 4em;
+        font-size: 1.25em;
+        font-weight: bolder;
+    }
+
     #event-section{
         grid-column: 1;
         grid-row: 1;

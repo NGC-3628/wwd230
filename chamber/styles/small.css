@@ -75,7 +75,6 @@ header{
 }
 
 .banner{
-    background-color: var(--navbar-bk-color);;
     margin:0 auto;
     margin-bottom: 3em;
     padding: 0.5em;
@@ -105,17 +104,19 @@ main{
     position: relative;
     gap: 0.5em;
     background-color: #feaeda63;
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 1rem;
 }
 
 #hero-section button{
     position:absolute;
     right: 1em;
-    bottom: 1em;
+    bottom: -1.1em;
     background-color: #e1a907;
-    color: var(--main-font-color);
     border: 3px white solid;
     border-radius: 1em;
-    padding: 0.75em 4em;
+    padding: 0.50em 6em;
     font-size: 1.25em;
     font-weight: bolder;
 }
@@ -124,6 +125,11 @@ main{
     text-decoration: none;
     color: white;
     
+}
+
+#weather-section{
+    border: #d5f9ff solid 5px;
+    border-radius: 1rem;
 }
 
 /********************          STARTS slider-1: events parts        **************/
@@ -180,6 +186,7 @@ main{
     flex-direction: column;
     align-items: center;
     background-color: #fffbe0;
+    border-radius: 1rem;
 }
 
 /********************          STARTS slider-2: spotlights-sports        **************/
