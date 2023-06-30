@@ -694,10 +694,3 @@ main figcaption{
     }
 }   
 
-@media screen and (min-width: 35em){
-    .principal{
-        display: flex;
-        flex-direction: column;
-        gap: 1em;
-    }
-}

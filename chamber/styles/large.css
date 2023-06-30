@@ -149,5 +149,13 @@
         margin-left: -17rem;
     }
 
+    .principal{
+        display: flex;
+        flex-direction: row-reverse;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+
 }
     
