@@ -141,9 +141,11 @@ div.bgimg-1-container {
 }
 
 .bgimg-3 {
-    background-image: url(../personalwebsite/images/teach.jpg);
+    /*background-image: url(../personalwebsite/images/teach.jpg);*/
+
     min-height: 400px;
     background-position:top;
+    max-height: 570px;
 }
 
 .bgimg-4{
@@ -168,7 +170,7 @@ div.bgimg-1-container {
 h3 {
     letter-spacing: 5px;
     text-transform: uppercase;
-    font: 20px "Lato", sans-serif;
+    font: 27px "Lato", sans-serif;
     color: #111;
 }
 
@@ -255,7 +257,8 @@ color: white;
 }
 
 .ban1 p{
-    font-size: 25px;
+    font-size: 24px;
+    text-align: center;
 }
 
 .h31{
@@ -299,9 +302,19 @@ color: white;
 
 /********* products  ***********/
 
+.caption-u{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    flex-direction: row-reverse;
+    text-align: center;
+
+}
+
 .bgimg-4 div.info h3{
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
     color: #242424;
     padding-top: 3rem;
     text-shadow: #d8d8d8 2px 1px;
@@ -311,7 +324,7 @@ color: white;
 
 .products{
     display: flex;
-    margin: 5rem;
+    margin: 2rem;
     /*background-color: black;*/
     border-radius: 2rem;
 }
@@ -331,10 +344,11 @@ div.colored-bkgrnd{
 }
 
 img#pr{
-    width: 320px;
-    position: relative;
+    max-width: 300px;
+   /* position: relative;*/
     border-radius: 2rem;
-    border: 1px #111 solid;
+   /* border: 1px #111 solid;*/
+   box-shadow: 0 0 10px #333;
 }
 
 ul.description{
@@ -346,11 +360,12 @@ ul.description{
     text-shadow: #ededed 1px 1px;
 }
 
-.colored-bkgrnd:hover{
-    color: #30edf76d;
+.products-c div img:hover{
+    box-shadow: 0 0 50px #333;
 }
 
 /*******  Ul options  *******/
 .title{
-    font-size: 28px;
+    font-size: 20px;
 }
+
