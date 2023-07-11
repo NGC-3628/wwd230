@@ -1,5 +1,5 @@
 //JSON link
-const url = "https://ngc-3628.github.io/wwd230/other%20projects/companies.json";
+const url = "https://ngc-3628.github.io/wwd230/other%20projects/customers.json";
 
 //add event listener to load data and display:
 document.addEventListener("DOMContentLoaded", () => {
