@@ -16,6 +16,7 @@ header{
     justify-content: center; /* Center the logo horizontally */
     align-items: center; /* Center the logo vertically */
     height: 100px; /* Adjust the height of the header as desired */
+    border-bottom: 3px #ff972f solid;
 
 }
 
@@ -118,7 +119,7 @@ div.bgimg-1-container {
     text-align: center;
   }
 
-.bgimg-1, .bgimg-2, .bgimg-3 {
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4{
     position: relative;
     background-attachment: fixed;
     background-position: center;
@@ -145,7 +146,11 @@ div.bgimg-1-container {
     background-position:top;
 }
 
-
+.bgimg-4{
+    background-image: linear-gradient(#dbdbdb9f, #fff8f816), url(../images/products.large.jpg);
+    min-height: 100%;
+    position: relative;
+}
 
 .caption span.border {
     color: #000000;
@@ -203,7 +208,7 @@ color: white;
 
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1024px) {
-    .bgimg-1, .bgimg-2, .bgimg-3 {
+    .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
     background-attachment: scroll;
     }
 }
@@ -293,35 +298,59 @@ color: white;
 
 
 /********* products  ***********/
+
+.bgimg-4 div.info h3{
+    text-align: center;
+    font-size: 40px;
+    color: #242424;
+    padding-top: 3rem;
+    text-shadow: #d8d8d8 2px 1px;
+    padding-bottom: 2rem;
+
+}
+
 .products{
     display: flex;
     margin: 5rem;
-    background-color: black;
+    /*background-color: black;*/
     border-radius: 2rem;
 }
 
 div.caption{
     display: flex;
-    margin-top: -100px;
+    margin-top: -50px;
     align-items: flex-start;
     justify-content: space-evenly;
+
 }
 
 div.colored-bkgrnd{
-    border: 1px #454545 solid;
-    background-color: #2a73f9;
     border-radius: 3rem;
-    margin: 5px 15px;
+    /*margin: 5px 15px;*/
     padding: 2rem;
 }
 
 img#pr{
-    width: 150px;
+    width: 320px;
     position: relative;
+    border-radius: 2rem;
+    border: 1px #111 solid;
 }
 
 ul.description{
-    background-color: #f7f7f7;
+    background-color: #f7f7f7d6;
     border-radius: 2rem;
     margin: auto 10px 5px;
+    font-size: larger;
+    color: #000000;
+    text-shadow: #ededed 1px 1px;
+}
+
+.colored-bkgrnd:hover{
+    color: #30edf76d;
+}
+
+/*******  Ul options  *******/
+.title{
+    font-size: 28px;
 }
