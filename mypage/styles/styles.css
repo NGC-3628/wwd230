@@ -297,6 +297,11 @@ color: white;
     text-align:center;
     padding:50px 80px;
     text-align: justify;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 
@@ -369,3 +374,46 @@ ul.description{
     font-size: 20px;
 }
 
+/*******   JSON info   ********/
+
+
+
+img.customers-logo{
+    max-width: 100px;
+}
+
+.company-card{
+
+}
+
+
+/*carrusel*/
+.carousel-container {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .carousel {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  .carousel-inner {
+    display: flex;
+  }
+  
+  .company-card {
+    flex: 0 0 auto;
+    margin-right: 20px;
+  }
+  
+  .customers-logo {
+    max-width: 100px;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .customers-name {
+    text-align: center;
+  }
+  
