@@ -84,21 +84,28 @@
 
     .caption-top h1 {
         line-height: 6rem;
-        font-size: 90px;
+        font-size: 60px;
     }
 
     .caption-top p{
+        font-size: 20px;
         line-height: 4rem;
     }
 
     .caption-top h3{
-        font-size: larger;
+        font-size: large;
     }
 
 
 
+    div.ban1 p{
+        font-size: 15px;
+        text-align: center;
+    }
+
+
     div.bgimg-4{
-        padding: 0.001rem;
+        margin-top: -8rem;
     }
 
     /**********  OUR PRODUCTS  ***********/
