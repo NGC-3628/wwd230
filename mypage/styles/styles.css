@@ -35,7 +35,25 @@ header a{
 }
 
 /******** NAV menu */
-.nav-upper{
+
+nav button {display: none;}
+
+ul#menu{
+    list-style: none;
+    
+}
+@media (min-width: 641px) {
+    nav ul{
+        display: flex; /* Display the list items in a row */
+        justify-content: flex-end; /* Align the list items to the right */
+    }
+
+    nav ul li{
+        margin-left: 10px; /* Add some spacing between list items */
+    }
+}
+
+/*.nav-upper{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -57,7 +75,7 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 nav{
 display: flex;
 justify-content: space-between;
-}
+}*/
 
 /*******  icon   */
 
@@ -216,6 +234,21 @@ color: white;
 }
 
 
+
+/**********  RESPONSIVE GOOGLE MAPS MAP  ***********/
+.google-maps {
+    position: relative;
+    padding-bottom: 75%; /*This is the aspect ratio*/
+    height: 0;
+    overflow: hidden;
+}
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
 
 
 .social-media{
@@ -395,7 +428,7 @@ img.customers-logo{
   
   .carousel {
     display: flex;
-    transition: transform 0.5s ease;
+    transition: transform 0.5s ease-in-out;
   }
   
   .carousel-inner {

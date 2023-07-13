@@ -1,0 +1,128 @@
+@media (max-width: 641px){
+    /* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+    html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+    /*----------- apply a natural box layout model to all elements --------------*/
+    /*
+    *                    MENU NAVEGATION
+    */
+    * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+    
+
+    
+
+    /**********  NAV HEADER MENU  ***********/
+
+    nav{
+        background-color: rgb(248, 248, 236);
+    }
+    
+    nav ul{
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    nav ul li a{
+        display: block;
+        padding: .8rem 2vw;
+        text-decoration: none;
+        color: blue;
+    }
+
+    nav ul li a:hover {
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    nav ul li a:hover {
+        background-color: rgba(0, 0, 0, 0.2);
+        color: #fff;
+    }
+
+    nav ul li a:hover{
+        background-color: rgba(0, 0, 0, 0.3);
+    }
+
+    nav ul{display: none;}
+    nav ul.open{display: block;}
+
+    #hamburger span:nth-child(1) {display: block;}
+    #hamburger span:nth-child(2) {display: none;}
+
+    #hamburger.open span:nth-child(1) {display: none;}
+    #hamburger.open span:nth-child(2) {display: block;}
+
+
+    /*******   HEADER   ******/
+    header{
+        background-color: #f7f7f7;
+        backdrop-filter: blur(10px);
+        justify-content: center;
+        align-items: center;
+        border-bottom: 3px #ff972f solid;
+    }
+
+
+
+    .bgimg-1-images{
+        display: none;
+    }
+
+    .caption-top{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10rem 0 15rem;
+        text-align:left;
+    }
+
+
+
+    .bgimg-2 span{
+        display: none;
+    }
+
+    .caption-top h1 {
+        line-height: 6rem;
+        font-size: 90px;
+    }
+
+    .caption-top p{
+        line-height: 4rem;
+    }
+
+    .caption-top h3{
+        font-size: larger;
+    }
+
+
+
+    div.bgimg-4{
+        padding: 0.001rem;
+    }
+
+    /**********  OUR PRODUCTS  ***********/
+
+
+    .caption-u{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    img#pr{
+        max-width: 100%;
+        height: auto;
+        position: relative;
+        object-fit: cover;
+        object-position: bottom;
+        display: block;
+    }
+
+    ul.description{
+        border-radius: initial;
+        margin: initial;
+    }
+
+
+}

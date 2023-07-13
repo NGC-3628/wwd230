@@ -7,7 +7,11 @@
   <link rel="icon" href="images/Logo.png"/>
   <title>Home W12 practice</title>
  <!--<link rel="stylesheet" href="styles/W12.css">-->
+
  <link rel="stylesheet" href="styles/styles.css">
+ <link rel="stylesheet" href="styles/small.css">
+
+
  <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>  
 </head>
 <body>
@@ -19,22 +23,25 @@
         </a>
         <div class="nav-upper">
             <nav>
-                <a href="index.html">Home</a>
-                <a href="products.html">Products</a>
-                <a href="privacy.html">Stores</a>
-            </nav>
+            <button id="hamburger"><span>&#9776;</span><span>X;</span></button>
+              <ul id="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="privacy.html">Stores</a></li>
 
-            <div class="social-media-h">
-                <a href="./" class="social-media-icon">
+                <div class="social-media-h">
+                  <li><a href="./" class="social-media-icon">
                     <i class="bx bxl-facebook"></i>
-                </a>
-                <a href="./" class="social-media-icon">
-                    <i class="bx bxl-twitter" ></i>
-                </a>
-                <a href="https://www.instagram.com/yes.whoo/" class="social-media-icon">
+                  </a></li>
+                  <li><a href="./" class="social-media-icon">
+                    <i class="bx bxl-twitter"></i>
+                  </a></li>
+                  <li><a href="./" class="social-media-icon">
                     <i class="bx bxl-instagram"></i>
-                </a>
-            </div>
+                  </a></li>
+                </div>
+              </ul>
+            </nav>
         </div>
     </div>
   </header>
@@ -78,7 +85,9 @@
     </div>
     
     <div class="bgimg-3">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d88224.51262248782!2d-117.06605086077579!3d33.330168240929325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2smx!4v1689088177245!5m2!1sen!2smx" width="1536" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <div class="google-maps">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d88224.51262248782!2d-117.06605086077579!3d33.330168240929325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2smx!4v1689088177245!5m2!1sen!2smx" width="1536" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
       <div class="caption">
       <span class="border" >Where to find us?</span>
       </div>
@@ -95,10 +104,10 @@
       <div class="caption-u">
           <section id="products1" class="products">
               <div class="products-c">
-                  <div class="colored-bkgrnd">
-                      <img id="pr" src="images/fruits.jpg" alt="">
-                  </
-                  div>
+                  <picture class="colored-bkgrnd">
+                    <source media="(max-width: 641px)" srcset="images/fruit.s.jpg">
+                    <img id="pr" src="images/fruits.jpg" alt="product to sell. Fruit">
+                  </picture>
                   <p id="description">
                     <ul class="description">
                       <li class="title">Local Fruit</li>
@@ -112,9 +121,10 @@
           </section>
           <section id="products1" class="products">
             <div class="products-c">
-              <div class="colored-bkgrnd">
-                  <img id="pr" src="images/legumes.jpg" alt="">
-              </div>
+              <picture class="colored-bkgrnd">
+                  <source media="(max-width: 641px)" srcset="images/legumes.s.jpg">
+                  <img id="pr" src="images/legumes.jpg" alt="products to sell. Legumes">
+              </picture>
               <p id="description">
                 <ul class="description">
                   <li class="title">Legumes</li>
@@ -128,9 +138,10 @@
           </section>
           <section id="products1" class="products">
             <div class="products-c">
-              <div class="colored-bkgrnd">
-                  <img id="pr" src="images/juices.jpg" alt="">
-              </div>
+              <picture class="colored-bkgrnd">
+                  <source media="(max-width: 641px)" srcset="images/juices.s.png">
+                  <img id="pr" src="images/juices.jpg" alt="products to sell. Juices">
+              </picture>
               <p id="description">
                 <ul class="description">
                   <li class="title">Juices</li>
@@ -160,5 +171,6 @@
     </div>
   </footer>
   <script src="scripts/json.js"></script>
+  <script src="scripts/script.js"></script>
 </body>
 </html>
