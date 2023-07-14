@@ -1,0 +1,49 @@
+@media (min-width: 642px) and (max-width:1026px){
+
+    .caption-top{
+        max-width: 100%;
+        position: relative;
+        object-fit: cover;
+        object-position: bottom;
+        display: block;
+    }
+
+    div.caption-top h1{
+        font-size: 100%;
+        line-height: 2rem;
+    }
+
+    div.caption-top p{
+        font-size: 100%;
+        line-height: 2rem;
+        text-align: center;
+    }
+
+    div.bgimg-1-images{
+        display: flow-root;
+        margin-left: -5rem;
+    }
+
+    div.bgimg-1-images img{
+        max-width: 75%;
+    }
+
+    .caption-u{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    img#pr{
+        max-width: 100%;
+        height: auto;
+        position: relative;
+        object-fit: cover;
+        object-position: bottom;
+        display: block;
+    }
+
+
+
+    
+}
