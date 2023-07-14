@@ -448,5 +448,24 @@ img.customers-logo{
   
   .customers-name {
     text-align: center;
+}
+  
+
+/* Add your existing CSS styles here */
+
+/* Hide default Owl Carousel navigation */
+.owl-nav {
+    display: none;
+  }
+  
+  /* Style custom navigation buttons */
+  .custom-nav {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .prev-btn,
+  .next-btn {
+    padding: 5px 10px;
   }
   

@@ -3,8 +3,17 @@ const url = "https://ngc-3628.github.io/wwd230/other%20projects/customers.json";
 
 // Add event listener to load data and display
 document.addEventListener("DOMContentLoaded", () => {
+  // Initialize Owl Carousel
+  $(".carousel").owlCarousel({
+    items: 3, // Adjust the number of items per slide as needed
+    loop: true,
+    nav: true,
+    navText: ["Prev", "Next"],
+    margin: 10
+  });
+
   // Output to display info on
-  const carouselInner = document.querySelector(".carousel-inner");
+  const carouselInner = document.querySelector(".carousel");
 
   // Fetch data and display it
   getCompanyData().then(companies => displayCompanies(companies, carouselInner));
@@ -48,18 +57,5 @@ function displayCompanies(companies, carouselInner) {
     card.appendChild(logo);
     card.appendChild(name);
     carouselInner.appendChild(card);
-  });
-
-  // Add event listeners to the carousel controls
-  const prevBtn = document.querySelector(".prev-btn");
-  const nextBtn = document.querySelector(".next-btn");
-  const carousel = document.querySelector(".carousel");
-
-  prevBtn.addEventListener("click", () => {
-    carousel.style.transform = "translateX(100%)";
-  });
-
-  nextBtn.addEventListener("click", () => {
-    carousel.style.transform = "translateX(-100%)";
   });
 }
