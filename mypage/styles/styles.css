@@ -7,7 +7,21 @@ body, html {
 }
 
 
-/******/
+/**/
+
+
+
+a.weatherwidget-io{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    /*height: 100% !important;*/
+}
+
+
+
+/**/
 
 .header{
     background-color: #1b3039;
