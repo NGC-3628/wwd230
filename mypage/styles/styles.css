@@ -23,7 +23,7 @@ a.weatherwidget-io{
 
 /**/
 
-.header{
+.header, .header-fresh{
     background-color: #1b3039;
     display: flex;
     justify-content: flex-end;
@@ -33,7 +33,7 @@ a.weatherwidget-io{
     border-bottom: 3px #ff972f solid;
 }
 
-.header .logo{
+.header .logo .header-fresh{
     cursor: pointer;
     margin-right: auto;
 }
@@ -43,6 +43,12 @@ a.weatherwidget-io{
     width: auto;
     transition: all 0.3s;
 }
+
+.header-fresh .logo img:hover{
+    transform: scale(1.2);
+}
+
+
 
 .header .logo img:hover{
     transform: scale(1.2);
@@ -189,6 +195,11 @@ div.bgimg-1-container {
     font-size:25px;
     text-shadow: 1px 1px 1px black;
     color: #f7f7f7;
+}
+
+span.border a{
+    text-decoration: none;
+    color: aliceblue;
 }
 
 
@@ -481,3 +492,70 @@ footer{
     background-color: #1b3039;
     border-top: 3px #ff972f solid;
 }
+
+
+/****************   FRESH PAGE   ***************/
+
+
+/* Form */
+
+#fresh-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(#e1dacab4, #fff8f87c), url(../images/menu2.png);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    margin-bottom: 5vh;
+}
+
+.input-div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 0.1em;
+}
+
+.input-div * {
+    width: 400px;
+    margin: 0;
+}
+
+input, textarea, select {
+    padding: 0.25em 0.5em;
+}
+
+#about-main {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+}
+
+#about-main * {
+    margin: 0;
+}
+
+#about-main section {
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    align-items: center;
+    justify-content: center;
+}
+
+#about-main section div {
+    display: flex;
+    flex-direction: column;
+}
+
+iframe {
+    height: 300px;
+}
+
+
