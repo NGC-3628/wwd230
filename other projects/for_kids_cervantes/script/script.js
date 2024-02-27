@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function() {
         cardContainer.innerHTML = '';
 
         // Obtener imágenes aleatorias del JSON
-        fetch('images/imagesJSON.json')
+        fetch('imagesJSON.json')
             .then(response => response.json())
             .then(data => {
                 // Mezclar las imágenes
