@@ -21,8 +21,8 @@ footer {
 }
 
 #lottery-card img {
-    width: 150px;
-    height: 150px;
+    max-width: 150px; /* Establecer el ancho máximo */
+    max-height: 150px; /* Establecer el alto máximo */
     margin: 10px;
     display: inline-block;
 }
