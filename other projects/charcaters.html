@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historical Footprints - Choose Your Legend</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Montserrat', sans-serif; background-color: #f3f4f6; }
+        h1 { font-family: 'Playfair Display', serif; }
+        .card-zoom:hover .card-img { transform: scale(1.1); }
+        .card-img { transition: transform 0.5s ease; }
+    </style>
+</head>
+<body class="p-6 md:p-12">
+    <div class="max-w-7xl mx-auto">
+        <header class="text-center mb-16">
+            <h1 class="text-5xl md:text-7xl font-bold text-gray-800 mb-4">Historical Footprints</h1>
+            <p class="text-xl text-gray-600">Choose your legend. Research their life. Make history.</p>
+            <div class="mt-8 inline-block bg-blue-600 text-white px-6 py-2 rounded-full font-bold uppercase tracking-widest text-sm">
+                Project Launch - 9th Grade
+            </div>
+        </header>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
+            
+            <!-- Leonardo da Vinci -->
+            <div class="bg-white rounded-2xl overflow-hidden shadow-lg card-zoom hover:shadow-2xl transition-all duration-300">
+                <div class="relative h-64 overflow-hidden">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/e/e2/Leonardo_da_Vinci_-_presumed_self-portrait_-_WGA12798.jpg" alt="Leonardo da Vinci" class="w-full h-full object-cover card-img">
+                    <div class="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/80 to-transparent">
+                        <p class="text-blue-400 font-bold text-xs uppercase tracking-wider">The Polymath</p>
+                        <h2 class="text-white text-2xl font-bold">Leonardo da Vinci</h2>
+                    </div>
+                </div>
+                <div class="p-6">
+                    <h3 class="text-gray-800 font-bold mb-2">Who was this person?</h3>
+                    <p class="text-gray-600 text-sm mb-4">An Italian artist, scientist, and inventor.</p>
+                    <div class="bg-blue-50 border-l-4 border-blue-500 p-3 italic">
+                        <p class="text-blue-800 text-sm"><strong>Cool Fact:</strong> He designed flying machines 500 years before airplanes existed!</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Marie Curie -->
+            <div class="bg-white rounded-2xl overflow-hidden shadow-lg card-zoom hover:shadow-2xl transition-all duration-300">
+                <div class="relative h-64 overflow-hidden">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/6/69/Marie_Curie_c1920.jpg" alt="Marie Curie" class="w-full h-full object-cover card-img">
+                    <div class="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/80 to-transparent">
+                        <p class="text-blue-400 font-bold text-xs uppercase tracking-wider">The Pioneer</p>
+                        <h2 class="text-white text-2xl font-bold">Marie Curie</h2>
+                    </div>
+                </div>
+                <div class="p-6">
+                    <h3 class="text-gray-800 font-bold mb-2">Who was this person?</h3>
+                    <p class="text-gray-600 text-sm mb-4">A Polish scientist who studied radioactivity.</p>
+                    <div class="bg-blue-50 border-l-4 border-blue-500 p-3 italic">
+                        <p class="text-blue-800 text-sm"><strong>Cool Fact:</strong> She is the only person to win Nobel Prizes in two different sciences.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Alexander the Great -->
+            <div class="bg-white rounded-2xl overflow-hidden shadow-lg card-zoom hover:shadow-2xl transition-all duration-300">
+                <div class="relative h-64 overflow-hidden">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/e/e1/Alexander_the_Great_mosaic.jpg" alt="Alexander the Great" class="w-full h-full object-cover card-img">
+                    <div class="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/80 to-transparent">
+                        <p class="text-blue-400 font-bold text-xs uppercase tracking-wider">The Conqueror</p>
+                        <h2 class="text-white text-2xl font-bold">Alexander the Great</h2>
+                    </div>
+                </div>
+                <div class="p-6">
+                    <h3 class="text-gray-800 font-bold mb-2">Who was this person?</h3>
+                    <p class="text-gray-600 text-sm mb-4">A young King of Macedonia who never lost a battle.</p>
+                    <div class="bg-blue-50 border-l-4 border-blue-500 p-3 italic">
+                        <p class="text-blue-800 text-sm"><strong>Cool Fact:</strong> By age 30, he created one of the largest empires in history.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cleopatra -->
+            <div class="bg-white rounded-2xl overflow-hidden shadow-lg card-zoom hover:shadow-2xl transition-all duration-300">
+                <div class="relative h-64 overflow-hidden">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/8/8a/Kleopatra-VII.-Altes-Museum-Berlin1.jpg" alt="Cleopatra" class="w-full h-full object-cover card-img">
+                    <div class="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/80 to-transparent">
+                        <p class="text-blue-400 font-bold text-xs uppercase tracking-wider">The Last Pharaoh</p>
+                        <h2 class="text-white text-2xl font-bold">Cleopatra</h2>
+                    </div>
+                </div>
+                <div class="p-6">
+                    <h3 class="text-gray-800 font-bold mb-2">Who was this person?</h3>
+                    <p class="text-gray-600 text-sm mb-4">The intelligent and powerful ruler of Ancient Egypt.</p>
+                    <div class="bg-blue-50 border-l-4 border-blue-500 p-3 italic">
+                        <p class="text-blue-800 text-sm"><strong>Cool Fact:</strong> She spoke 9 languages and was a brilliant political leader.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Nikola Tesla -->
+            <div class="bg-white rounded-2xl overflow-hidden shadow-lg card-zoom hover:shadow-2xl transition-all duration-300">
+                <div class="relative h-64 overflow-hidden">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/d/d4/N.Tesla.JPG" alt="Nikola Tesla" class="w-full h-full object-cover card-img">
+                    <div class="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/80 to-transparent">
+                        <p class="text-blue-400 font-bold text-xs uppercase tracking-wider">The Visionary</p>
+                        <h2 class="text-white text-2xl font-bold">Nikola Tesla</h2>
+                    </div>
+                </div>
+                <div class="p-6">
+                    <h3 class="text-gray-800 font-bold mb-2">Who was this person?</h3>
+                    <p class="text-gray-600 text-sm mb-4">The inventor of the modern AC electricity system.</p>
+                    <div class="bg-blue-50 border-l-4 border-blue-500 p-3 italic">
+                        <p class="text-blue-800 text-sm"><strong>Cool Fact:</strong> He dreamed of free wireless energy for the entire world.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Napoleon Bonaparte -->
+            <div class="bg-white rounded-2xl overflow-hidden shadow-lg card-zoom hover:shadow-2xl transition-all duration-300">
+                <div class="relative h-64 overflow-hidden">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/5/50/Jacques-Louis_David_-_The_Emperor_Napoleon_in_His_Study_at_the_Tuileries_-_Google_Art_Project.jpg" alt="Napoleon Bonaparte" class="w-full h-full object-cover card-img">
+                    <div class="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/80 to-transparent">
+                        <p class="text-blue-400 font-bold text-xs uppercase tracking-wider">The Emperor</p>
+                        <h2 class="text-white text-2xl font-bold">Napoleon Bonaparte</h2>
+                    </div>
+                </div>
+                <div class="p-6">
+                    <h3 class="text-gray-800 font-bold mb-2">Who was this person?</h3>
+                    <p class="text-gray-600 text-sm mb-4">A French military leader who conquered most of Europe.</p>
+                    <div class="bg-blue-50 border-l-4 border-blue-500 p-3 italic">
+                        <p class="text-blue-800 text-sm"><strong>Cool Fact:</strong> He changed European law forever with the Napoleonic Code.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Joan of Arc -->
+            <div class="bg-white rounded-2xl overflow-hidden shadow-lg card-zoom hover:shadow-2xl transition-all duration-300">
+                <div class="relative h-64 overflow-hidden">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/1/16/Joan_of_Arc_miniature_graded.jpg" alt="Joan of Arc" class="w-full h-full object-cover card-img">
+                    <div class="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/80 to-transparent">
+                        <p class="text-blue-400 font-bold text-xs uppercase tracking-wider">The Warrior</p>
+                        <h2 class="text-white text-2xl font-bold">Joan of Arc</h2>
+                    </div>
+                </div>
+                <div class="p-6">
+                    <h3 class="text-gray-800 font-bold mb-2">Who was this person?</h3>
+                    <p class="text-gray-600 text-sm mb-4">A teenage girl who led the French army to victory.</p>
+                    <div class="bg-blue-50 border-l-4 border-blue-500 p-3 italic">
+                        <p class="text-blue-800 text-sm"><strong>Cool Fact:</strong> She followed her visions and became a hero at only 17 years old.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Henry VIII -->
+            <div class="bg-white rounded-2xl overflow-hidden shadow-lg card-zoom hover:shadow-2xl transition-all duration-300">
+                <div class="relative h-64 overflow-hidden">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Henry_VIII_of_England_by_Hans_Holbein_the_Younger.jpg" alt="Henry VIII" class="w-full h-full object-cover card-img">
+                    <div class="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/80 to-transparent">
+                        <p class="text-blue-400 font-bold text-xs uppercase tracking-wider">The King</p>
+                        <h2 class="text-white text-2xl font-bold">Henry VIII</h2>
+                    </div>
+                </div>
+                <div class="p-6">
+                    <h3 class="text-gray-800 font-bold mb-2">Who was this person?</h3>
+                    <p class="text-gray-600 text-sm mb-4">The King of England famous for his six wives.</p>
+                    <div class="bg-blue-50 border-l-4 border-blue-500 p-3 italic">
+                        <p class="text-blue-800 text-sm"><strong>Cool Fact:</strong> He broke away from the Church just to get a divorce. Dramatic!</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Elizabeth I -->
+            <div class="bg-white rounded-2xl overflow-hidden shadow-lg card-zoom hover:shadow-2xl transition-all duration-300">
+                <div class="relative h-64 overflow-hidden">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/5/5c/Elizabeth_I_in_coronation_robes.jpg" alt="Elizabeth I" class="w-full h-full object-cover card-img">
+                    <div class="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/80 to-transparent">
+                        <p class="text-blue-400 font-bold text-xs uppercase tracking-wider">The Queen</p>
+                        <h2 class="text-white text-2xl font-bold">Elizabeth I</h2>
+                    </div>
+                </div>
+                <div class="p-6">
+                    <h3 class="text-gray-800 font-bold mb-2">Who was this person?</h3>
+                    <p class="text-gray-600 text-sm mb-4">One of the most successful queens in English history.</p>
+                    <div class="bg-blue-50 border-l-4 border-blue-500 p-3 italic">
+                        <p class="text-blue-800 text-sm"><strong>Cool Fact:</strong> She defeated the Spanish Armada and started a Golden Age of art.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Julius Caesar -->
+            <div class="bg-white rounded-2xl overflow-hidden shadow-lg card-zoom hover:shadow-2xl transition-all duration-300">
+                <div class="relative h-64 overflow-hidden">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/1/1c/CaesarTusculum.jpg" alt="Julius Caesar" class="w-full h-full object-cover card-img">
+                    <div class="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/80 to-transparent">
+                        <p class="text-blue-400 font-bold text-xs uppercase tracking-wider">The Dictator</p>
+                        <h2 class="text-white text-2xl font-bold">Julius Caesar</h2>
+                    </div>
+                </div>
+                <div class="p-6">
+                    <h3 class="text-gray-800 font-bold mb-2">Who was this person?</h3>
+                    <p class="text-gray-600 text-sm mb-4">A general who ended the Roman Republic to become a dictator.</p>
+                    <div class="bg-blue-50 border-l-4 border-blue-500 p-3 italic">
+                        <p class="text-blue-800 text-sm"><strong>Cool Fact:</strong> His name became the word for 'King' in many languages (Czar, Kaiser).</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Genghis Khan -->
+            <div class="bg-white rounded-2xl overflow-hidden shadow-lg card-zoom hover:shadow-2xl transition-all duration-300">
+                <div class="relative h-64 overflow-hidden">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/YuanEmperorAlbumGenghisPortrait.jpg" alt="Genghis Khan" class="w-full h-full object-cover card-img">
+                    <div class="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/80 to-transparent">
+                        <p class="text-blue-400 font-bold text-xs uppercase tracking-wider">The Steppe Lord</p>
+                        <h2 class="text-white text-2xl font-bold">Genghis Khan</h2>
+                    </div>
+                </div>
+                <div class="p-6">
+                    <h3 class="text-gray-800 font-bold mb-2">Who was this person?</h3>
+                    <p class="text-gray-600 text-sm mb-4">Founder of the Mongol Empire.</p>
+                    <div class="bg-blue-50 border-l-4 border-blue-500 p-3 italic">
+                        <p class="text-blue-800 text-sm"><strong>Cool Fact:</strong> He started as an orphan and created the largest land empire ever.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Catherine the Great -->
+            <div class="bg-white rounded-2xl overflow-hidden shadow-lg card-zoom hover:shadow-2xl transition-all duration-300">
+                <div class="relative h-64 overflow-hidden">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a8/Catherine_II_by_Vigilius_Eriksen.jpg" alt="Catherine the Great" class="w-full h-full object-cover card-img">
+                    <div class="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/80 to-transparent">
+                        <p class="text-blue-400 font-bold text-xs uppercase tracking-wider">The Empress</p>
+                        <h2 class="text-white text-2xl font-bold">Catherine the Great</h2>
+                    </div>
+                </div>
+                <div class="p-6">
+                    <h3 class="text-gray-800 font-bold mb-2">Who was this person?</h3>
+                    <p class="text-gray-600 text-sm mb-4">The longest-ruling female leader of Russia.</p>
+                    <div class="bg-blue-50 border-l-4 border-blue-500 p-3 italic">
+                        <p class="text-blue-800 text-sm"><strong>Cool Fact:</strong> She was born in Germany but became the most powerful woman in Russia.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Nelson Mandela -->
+            <div class="bg-white rounded-2xl overflow-hidden shadow-lg card-zoom hover:shadow-2xl transition-all duration-300">
+                <div class="relative h-64 overflow-hidden">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/0/02/Nelson_Mandela_1994.jpg" alt="Nelson Mandela" class="w-full h-full object-cover card-img">
+                    <div class="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/80 to-transparent">
+                        <p class="text-blue-400 font-bold text-xs uppercase tracking-wider">The Leader</p>
+                        <h2 class="text-white text-2xl font-bold">Nelson Mandela</h2>
+                    </div>
+                </div>
+                <div class="p-6">
+                    <h3 class="text-gray-800 font-bold mb-2">Who was this person?</h3>
+                    <p class="text-gray-600 text-sm mb-4">The leader who ended Apartheid in South Africa.</p>
+                    <div class="bg-blue-50 border-l-4 border-blue-500 p-3 italic">
+                        <p class="text-blue-800 text-sm"><strong>Cool Fact:</strong> He was in prison for 27 years and then became President. A true inspiration.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Ada Lovelace -->
+            <div class="bg-white rounded-2xl overflow-hidden shadow-lg card-zoom hover:shadow-2xl transition-all duration-300">
+                <div class="relative h-64 overflow-hidden">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Ada_Lovelace_portrait.jpg" alt="Ada Lovelace" class="w-full h-full object-cover card-img">
+                    <div class="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/80 to-transparent">
+                        <p class="text-blue-400 font-bold text-xs uppercase tracking-wider">The Programmer</p>
+                        <h2 class="text-white text-2xl font-bold">Ada Lovelace</h2>
+                    </div>
+                </div>
+                <div class="p-6">
+                    <h3 class="text-gray-800 font-bold mb-2">Who was this person?</h3>
+                    <p class="text-gray-600 text-sm mb-4">A mathematician and brilliant writer.</p>
+                    <div class="bg-blue-50 border-l-4 border-blue-500 p-3 italic">
+                        <p class="text-blue-800 text-sm"><strong>Cool Fact:</strong> She wrote the first computer algorithm in the 1840s!</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Grigori Rasputin -->
+            <div class="bg-white rounded-2xl overflow-hidden shadow-lg card-zoom hover:shadow-2xl transition-all duration-300">
+                <div class="relative h-64 overflow-hidden">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/7/79/Rasputin_PA.jpg" alt="Grigori Rasputin" class="w-full h-full object-cover card-img">
+                    <div class="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/80 to-transparent">
+                        <p class="text-blue-400 font-bold text-xs uppercase tracking-wider">The Mystic</p>
+                        <h2 class="text-white text-2xl font-bold">Grigori Rasputin</h2>
+                    </div>
+                </div>
+                <div class="p-6">
+                    <h3 class="text-gray-800 font-bold mb-2">Who was this person?</h3>
+                    <p class="text-gray-600 text-sm mb-4">A mysterious monk in the Russian court.</p>
+                    <div class="bg-blue-50 border-l-4 border-blue-500 p-3 italic">
+                        <p class="text-blue-800 text-sm"><strong>Cool Fact:</strong> People believed he had magical powers to heal the Prince.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Albert Einstein -->
+            <div class="bg-white rounded-2xl overflow-hidden shadow-lg card-zoom hover:shadow-2xl transition-all duration-300">
+                <div class="relative h-64 overflow-hidden">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/d/d3/Albert_Einstein_Head.jpg" alt="Albert Einstein" class="w-full h-full object-cover card-img">
+                    <div class="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/80 to-transparent">
+                        <p class="text-blue-400 font-bold text-xs uppercase tracking-wider">The Genius</p>
+                        <h2 class="text-white text-2xl font-bold">Albert Einstein</h2>
+                    </div>
+                </div>
+                <div class="p-6">
+                    <h3 class="text-gray-800 font-bold mb-2">Who was this person?</h3>
+                    <p class="text-gray-600 text-sm mb-4">The physicist who discovered the Theory of Relativity.</p>
+                    <div class="bg-blue-50 border-l-4 border-blue-500 p-3 italic">
+                        <p class="text-blue-800 text-sm"><strong>Cool Fact:</strong> He completely changed how we understand time and space.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mahatma Gandhi -->
+            <div class="bg-white rounded-2xl overflow-hidden shadow-lg card-zoom hover:shadow-2xl transition-all duration-300">
+                <div class="relative h-64 overflow-hidden">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/d/d1/Portrait_Gandhi.jpg" alt="Mahatma Gandhi" class="w-full h-full object-cover card-img">
+                    <div class="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/80 to-transparent">
+                        <p class="text-blue-400 font-bold text-xs uppercase tracking-wider">The Peaceful Soul</p>
+                        <h2 class="text-white text-2xl font-bold">Mahatma Gandhi</h2>
+                    </div>
+                </div>
+                <div class="p-6">
+                    <h3 class="text-gray-800 font-bold mb-2">Who was this person?</h3>
+                    <p class="text-gray-600 text-sm mb-4">The leader of the Indian independence movement.</p>
+                    <div class="bg-blue-50 border-l-4 border-blue-500 p-3 italic">
+                        <p class="text-blue-800 text-sm"><strong>Cool Fact:</strong> He defeated an empire using only non-violence and peace.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Hernán Cortés -->
+            <div class="bg-white rounded-2xl overflow-hidden shadow-lg card-zoom hover:shadow-2xl transition-all duration-300">
+                <div class="relative h-64 overflow-hidden">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Hern%C3%A1n_Cort%C3%A9s.jpg" alt="Hernán Cortés" class="w-full h-full object-cover card-img">
+                    <div class="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/80 to-transparent">
+                        <p class="text-blue-400 font-bold text-xs uppercase tracking-wider">The Explorer</p>
+                        <h2 class="text-white text-2xl font-bold">Hernán Cortés</h2>
+                    </div>
+                </div>
+                <div class="p-6">
+                    <h3 class="text-gray-800 font-bold mb-2">Who was this person?</h3>
+                    <p class="text-gray-600 text-sm mb-4">The Spanish soldier who led the fall of the Aztecs.</p>
+                    <div class="bg-blue-50 border-l-4 border-blue-500 p-3 italic">
+                        <p class="text-blue-800 text-sm"><strong>Cool Fact:</strong> He burned his own ships so his men couldn't retreat.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Malala Yousafzai -->
+            <div class="bg-white rounded-2xl overflow-hidden shadow-lg card-zoom hover:shadow-2xl transition-all duration-300">
+                <div class="relative h-64 overflow-hidden">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/0/0f/Malala_Yousafzai_2015.jpg" alt="Malala Yousafzai" class="w-full h-full object-cover card-img">
+                    <div class="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/80 to-transparent">
+                        <p class="text-blue-400 font-bold text-xs uppercase tracking-wider">The Activist</p>
+                        <h2 class="text-white text-2xl font-bold">Malala Yousafzai</h2>
+                    </div>
+                </div>
+                <div class="p-6">
+                    <h3 class="text-gray-800 font-bold mb-2">Who was this person?</h3>
+                    <p class="text-gray-600 text-sm mb-4">A young activist for female education.</p>
+                    <div class="bg-blue-50 border-l-4 border-blue-500 p-3 italic">
+                        <p class="text-blue-800 text-sm"><strong>Cool Fact:</strong> She survived an attack and became the youngest Nobel Prize winner ever.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Vincent van Gogh -->
+            <div class="bg-white rounded-2xl overflow-hidden shadow-lg card-zoom hover:shadow-2xl transition-all duration-300">
+                <div class="relative h-64 overflow-hidden">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/b/b0/Vincent_van_Gogh_-_Self-Portrait_-_Google_Art_Project.jpg" alt="Vincent van Gogh" class="w-full h-full object-cover card-img">
+                    <div class="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/80 to-transparent">
+                        <p class="text-blue-400 font-bold text-xs uppercase tracking-wider">The Painter</p>
+                        <h2 class="text-white text-2xl font-bold">Vincent van Gogh</h2>
+                    </div>
+                </div>
+                <div class="p-6">
+                    <h3 class="text-gray-800 font-bold mb-2">Who was this person?</h3>
+                    <p class="text-gray-600 text-sm mb-4">A Dutch post-impressionist painter.</p>
+                    <div class="bg-blue-50 border-l-4 border-blue-500 p-3 italic">
+                        <p class="text-blue-800 text-sm"><strong>Cool Fact:</strong> He only sold one painting in his life, but today he is one of the most famous artists.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        
+        <footer class="mt-20 text-center text-gray-500 border-t pt-8">
+            <p>&copy; Isaac Iturralde | 2026 Historical Footprints Project </p>
+        </footer>
+    </div>
+</body>
+</html>
